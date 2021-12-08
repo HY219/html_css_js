@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bus time</title>
+<style>
+    a,span { font-size: 10px;}
+</style>
+</head>
+<body>
+    <form>
+        <label>한 줄 댓글 : <input type="text" size="60"></label>
+        <b>주문 개수 : </b> <input type="number" min = "1" max="5" value="1"> 개
+    </form>
+    <form>
+        <fieldset>
+            <legend>등록 정보</legend>
+            <ul>
+                <li><label>참여인원<a>(최대10명)</a><input type="number" min="1" max ="10" value="1"></label></li>
+                <li><label>지원물품<span>(1인당 5개)</span><input type="number" min="1" max ="5" value="1"></label></li>
+                <li>희망단계<a>(하,중,상)</a><input type="range" min ="1" max="3" value="1"></li>
+            </ul>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

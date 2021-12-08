@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet</title>
+    <style>
+        #pet {background-color: darkblue; color: white; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+        .clearfix::after, .clearfix::before {content: ""; display: block; clear: both;} /*float된 자식 요소들을 잡기위한 것 --> 부모한테 줘야된다*/
+        h4{color:purple;}
+    </style>
+</head>
+<body>
+    <div style="margin: 0 auto; width: 50%; border: 1px solid black; border-radius: 10px;">
+    <div id="pet" class="clearfix">
+        <div style="font-size: 30px; font-weight: 800; float: left;">
+            애완견 종류
+        </div>
+        <div style="float: right;">
+            애완견 종류
+            입양하기
+            건강돌보기
+            더불어살기
+        </div>
+    </div>
+
+    <div id="a" style="border: 2px solid green; margin: 10px; padding: 10px; border-radius: 10px;">
+        <h3><img src="image/pic1.jpg" style="width: 10px; height: 10px;"> 활달한 강아지</h3>
+        <h4>말티즈</h4>
+    <p style="padding-left:20px">애정이 많고</p>
+    <h4>골든 리트리버</h4>
+    이 견종은
+    </div>
+
+    <div id="b" style="border: 2px solid green; margin: 10px; padding: 10px; border-radius: 10px;">
+        <h3><img src="image/pic1.jpg" style="width: 10px; height: 10px;">온순한 강아지</h3>
+        <h4>쉬즈</h4>
+        <p style="padding-left:20px">얼굴에</p>
+        <h4>피그</h4>
+    매우 사려가
+    </div>
+
+    <div id="c" style="border: 2px solid green; margin: 10px; padding: 10px; border-radius: 10px;">
+        <h3><img src="image/pic1.jpg" style="width: 10px; height: 10px;">사납지만 복종적인 강아지</h3>
+        <h4>푸들</h4>
+    사납진 않으나
+    <h4>폭스테리어</h4>
+    가정에서 키우기에 적합한 품종이다.
+    </div>
+
+    <div id="d" style="margin: 20px;">
+        <a style="font-weight: 900;"> 건강한 강아지는</a>
+        <ul>
+            <li>코가찢어져</li>
+            <li>털에 윤기가</li>
+        </ul>
+    </div>
+</div>
+    
+</body>
+</html>

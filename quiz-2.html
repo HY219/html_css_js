@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz-2</title>
+    <style>
+        #a {background:rgba(0,0,255,0.2);}
+        /*#a : hover {background: rgb(0,0,255);}*/
+    </style>
+</head>
+<body>
+    <div id="a" style="border : 1px solid black;" onmouseover="change()" onmouseout="origin()"> <!--opacity 투명도 (투명0~1기본값)-->
+    <h2>웹 디자인</h2>
+    그래픽 프로그램
+    </div>
+    <script>
+        function change() {
+            document.querySelector("#a").style.background = "rgb(0,0,255)";
+        }
+        function origin() {
+            document.querySelector("#a").style.background = "rgba(0,0,255,0.2)";
+        }
+    </script>
+</body>
+</html>
